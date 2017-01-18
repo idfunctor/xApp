@@ -1,0 +1,17 @@
+{
+  "host": "http://localhost:3000",
+  "dbURI": "mongodb://localhost:27017/xdb",
+  "sessionSecret": "spidermonkeybanana",
+  "fb": {
+    "clientID":"plissokaybork",
+    "clientSecret": "youaredoinmeaconsiderebelfrightenfren",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "profileFields": ["id","displayName","photos"]
+  },
+  "tw":{
+    "consumerKey"       : "flapflapdoggowithfethurs",
+    "consumerSecret"    : "issjoekisonlylameme",
+    "callbackURL"       : "//localhost:8080/auth/twitter/callback",
+    "profileFields": ["id","displayName","photos"]
+  }
+}
